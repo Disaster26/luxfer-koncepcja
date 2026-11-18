@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Sufity napinane Łódzkie - Luxfer | linie świetlne LED, gwieździste niebo, nadruki UV</title>
+<meta name="description" content="Luxfer - sufity i ściany napinane w województwie łódzkim: folie w połysku i macie, linie świetlne LED, nadruki UV, Double Vision i gwieździste niebo ze światłowodów. Tel. 501 338 623.">
+<meta name="theme-color" content="#121418">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-760.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" imagesizes="100vw" media="(max-width:899px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w" imagesizes="100vw" media="(min-width:900px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/montserrat-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/montserrat-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/montserrat-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--red:#E33B26;--red2:#C42E1A;--ink:#121418;--ink2:#2A2E35;--mut:#545B66;--sz:#EEF0F2;--line:#D8DCE1;--dark:#0E1014;--hh:64px;--w:calc(100vw - 32px);--gap:clamp(64px,7vw,136px)}
+@media (min-width:900px){:root{--hh:88px;--w:min(92vw,1720px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16px,.2vw + 15px,19px);line-height:1.62;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:Montserrat,system-ui,sans-serif;font-weight:700;line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
+p{margin:0}
+.wrap{width:var(--w);margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+
+/* przycisk z grotem jak w X logo */
+.btn{--c:var(--red);display:inline-flex;align-items:center;gap:.6em;min-height:56px;padding:0 44px 0 26px;background:var(--c);color:#fff;font:700 16px/1.2 Montserrat,system-ui,sans-serif;letter-spacing:.01em;text-decoration:none;border:0;cursor:pointer;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 50%,calc(100% - 18px) 100%,0 100%);transition:background-color .2s ease}
+.btn:hover{--c:var(--red2)}
+.btn.dk{--c:var(--ink)}
+.btn.dk:hover{--c:#000}
+
+/* naglowek */
+.hd{position:fixed;inset:0 0 auto;z-index:50;height:var(--hh);transition:background-color .25s ease,box-shadow .25s ease}
+.hd .wrap{height:100%;display:flex;align-items:center;gap:24px}
+.logo{display:block;flex:none;line-height:0}
+.logo svg{width:132px;height:auto;fill:var(--red)}
+@media (min-width:900px){.logo svg{width:168px}}
+.nav{display:none;margin-left:auto;gap:clamp(18px,2vw,40px);align-items:center}
+.nav a{color:#fff;text-decoration:none;font:600 15px/1 Montserrat,system-ui,sans-serif;padding:10px 0;position:relative}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .2s ease}
+.nav a:hover::after,.nav a[aria-current]::after{transform:scaleX(1)}
+.hd-tel{display:none}
+.hd.solid{background:#fff;box-shadow:0 1px 0 var(--line)}
+.hd.solid .nav a{color:var(--ink)}
+.burger{margin-left:auto;width:48px;height:48px;border:0;background:transparent;display:grid;place-items:center;cursor:pointer;color:#fff;padding:0}
+.hd.solid .burger{color:var(--ink)}
+.burger span{display:block;width:26px;height:2px;background:currentColor;position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:26px;height:2px;background:currentColor}
+.burger span::before{top:-8px}.burger span::after{top:8px}
+@media (min-width:1100px){.nav{display:flex}.burger{display:none}.hd-tel{display:inline-flex;min-height:48px;font-size:15px;padding:0 38px 0 20px}}
+.mnav{position:fixed;inset:0;z-index:60;background:#fff;display:flex;flex-direction:column;padding:0 16px calc(24px + env(safe-area-inset-bottom));transform:translateX(100%);transition:transform .3s cubic-bezier(.3,.7,.4,1);visibility:hidden}
+.mnav.open{transform:none;visibility:visible}
+.mnav-top{height:var(--hh);display:flex;align-items:center;justify-content:space-between}
+.mnav-x{width:48px;height:48px;border:0;background:transparent;font-size:34px;line-height:1;cursor:pointer;color:var(--ink)}
+.mnav ul{list-style:none;margin:16px 0 0;padding:0}
+.mnav li a{display:flex;align-items:center;justify-content:space-between;padding:15px 0;border-bottom:1px solid var(--line);font:700 22px/1.2 Montserrat,system-ui,sans-serif;text-decoration:none}
+.mnav li a::after{content:"";width:10px;height:16px;background:var(--red);clip-path:polygon(0 0,100% 50%,0 100%)}
+.mnav-bot{margin-top:auto;display:grid;gap:10px}
+.mnav-bot .btn{justify-content:center}
+.mnav-bot p{color:var(--mut);font-size:15px}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:var(--dark);isolation:isolate}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 30%}
+.hero picture{z-index:-2}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(14,16,20,.55) 0,rgba(14,16,20,0) 22%,rgba(14,16,20,0) 38%,rgba(14,16,20,.72) 64%,rgba(14,16,20,.92) 100%)}
+.hero-in{padding:calc(var(--hh) + 40px) 0 28px;text-align:center;display:flex;flex-direction:column;align-items:center}
+.klin{display:flex;align-items:center;width:100%;gap:0;margin-bottom:22px;color:#fff}
+.klin i{flex:1;height:2px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.9))}
+.klin i:last-child{background:linear-gradient(270deg,rgba(255,255,255,0),rgba(255,255,255,.9))}
+.klin svg{width:46px;height:26px;flex:none;margin:0 2px}
+.hero h1{font-size:clamp(34px,3.2vw + 14px,82px);max-width:17ch}
+@media (min-width:900px){.hero h1{max-width:none}.hero h1 .l1{display:block;white-space:nowrap}}
+.hero .lead{margin-top:18px;max-width:62ch;font-size:clamp(16px,.35vw + 15px,21px);color:rgba(255,255,255,.88)}
+.hero .btn{margin-top:28px}
+.hero .info{margin-top:18px;font-size:15px;color:rgba(255,255,255,.78)}
+.hero .info a{color:#fff;font-weight:700;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.4)}
+@media (min-width:900px){.hero-in{padding-bottom:44px}.hero .lead{max-width:70ch}.hero picture img{object-position:50% 40%}}
+
+/* sekcje */
+.sec{padding:var(--gap) 0}
+.sz{background:var(--sz)}
+.sec-h{max-width:900px;margin-bottom:clamp(28px,3.4vw,56px)}
+.sec-h h2{font-size:clamp(30px,2.6vw + 14px,62px)}
+.sec-h p{margin-top:16px;color:var(--mut);max-width:62ch}
+.mark{display:flex;align-items:center;gap:10px;margin-bottom:22px;color:var(--red)}
+.mark svg{width:34px;height:20px;flex:none}
+.mark i{height:2px;width:72px;background:var(--line)}
+
+/* oferta */
+.of-grid{display:grid;gap:clamp(28px,2.4vw,40px)}
+@media (min-width:700px){.of-grid{grid-template-columns:1fr 1fr}}
+@media (min-width:1280px){.of-grid{grid-template-columns:repeat(4,1fr)}}
+.card h3{font-size:clamp(21px,.6vw + 18px,27px);margin-top:20px}
+.card p{margin-top:10px;color:var(--mut);font-size:.95em}
+@media (max-width:699px){.card ul{display:none}}
+.card ul{margin:14px 0 0;padding:0;list-style:none;font-size:.92em;color:var(--ink2)}
+.card li{position:relative;padding-left:18px;margin-top:4px}
+.card li::before,.zal li::before{content:"";position:absolute;left:0;top:.52em;width:7px;height:11px;background:var(--red);clip-path:polygon(0 0,100% 50%,0 100%)}
+
+/* karuzela w karcie */
+.car{position:relative;clip-path:polygon(0 0,calc(50% - 13px) 0,50% 13px,calc(50% + 13px) 0,100% 0,100% 100%,0 100%);background:var(--sz)}
+.car-t{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;aspect-ratio:4/3;cursor:grab;overscroll-behavior-x:contain}
+.car-t::-webkit-scrollbar{display:none}
+.car-t.drag{cursor:grabbing;scroll-snap-type:none}
+.car-t img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:start;user-select:none;-webkit-user-drag:none}
+.car-n{position:absolute;right:10px;bottom:10px;background:rgba(18,20,24,.78);color:#fff;font:600 12px/1 Montserrat,sans-serif;padding:6px 9px}
+.car-b{position:absolute;top:50%;width:42px;height:42px;margin-top:-21px;border:0;background:rgba(255,255,255,.92);color:var(--ink);cursor:pointer;display:grid;place-items:center;opacity:0;transition:opacity .2s ease}
+.car-b::before{content:"";width:9px;height:14px;background:currentColor;clip-path:polygon(0 0,100% 50%,0 100%)}
+.car-b.p{left:10px}.car-b.p::before{transform:scaleX(-1)}
+.car-b.n{right:10px}
+.car:hover .car-b,.car-b:focus-visible{opacity:1}
+@media (hover:none){.car-b{display:none}}
+
+/* realizacje */
+.re-row+.re-row{margin-top:clamp(40px,4vw,64px)}
+.re-top{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px}
+.re-top h3{font-size:clamp(22px,.8vw + 18px,30px)}
+.arr{display:flex;gap:8px}
+.arr button{width:46px;height:46px;border:1px solid var(--ink);background:transparent;cursor:pointer;display:grid;place-items:center;color:var(--ink);transition:background-color .2s ease,color .2s ease}
+.arr button:hover{background:var(--ink);color:#fff}
+.arr button::before{content:"";width:9px;height:14px;background:currentColor;clip-path:polygon(0 0,100% 50%,0 100%)}
+.arr button:first-child::before{transform:scaleX(-1)}
+.strip{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;cursor:grab;overscroll-behavior-x:contain}
+.strip::-webkit-scrollbar{display:none}
+.strip.drag{cursor:grabbing;scroll-snap-type:none}
+.strip figure{margin:0;flex:0 0 82%;scroll-snap-align:start}
+@media (min-width:700px){.strip figure{flex-basis:calc((100% - 28px)/2.4)}}
+@media (min-width:1280px){.strip figure{flex-basis:calc((100% - 56px)/4.3)}}
+@media (min-width:1900px){.strip figure{flex-basis:calc((100% - 70px)/5.3)}}
+.strip button{display:block;width:100%;padding:0;border:0;background:var(--line);cursor:zoom-in;aspect-ratio:4/3;overflow:hidden}
+.strip button img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.3,.7,.4,1);user-select:none;-webkit-user-drag:none}
+.strip button:hover img{transform:scale(1.04)}
+.strip figcaption{margin-top:10px;font-size:15px;color:var(--ink2)}
+.obiekty{margin-top:clamp(36px,4vw,60px);padding-top:28px;border-top:1px solid var(--line);display:grid;gap:10px}
+@media (min-width:900px){.obiekty{grid-template-columns:auto 1fr;gap:40px;align-items:baseline}}
+.obiekty h3{font-size:19px}
+.obiekty ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 28px;font:600 17px/1.4 Montserrat,sans-serif}
+
+/* gwiezdzistie niebo - ciemna sekcja */
+.niebo{background:var(--dark);color:#fff;padding:var(--gap) 0;position:relative;overflow:hidden}
+.niebo .sec-h p{color:rgba(255,255,255,.76)}
+.niebo .mark i{background:rgba(255,255,255,.22)}
+.nb-grid{display:grid;gap:10px;grid-template-columns:1fr 1fr}
+.nb-a{grid-column:1/-1}
+.nb-grid button{padding:0;border:0;background:#1d2128;cursor:zoom-in;display:block;overflow:hidden;width:100%}
+.nb-grid img{width:100%;height:100%;object-fit:cover}
+.nb-a{aspect-ratio:16/10}
+.nb-b,.nb-c{aspect-ratio:4/3}
+@media (min-width:900px){.nb-grid{gap:14px;grid-template-columns:1.6fr 1fr;grid-template-rows:1fr 1fr}.nb-a{grid-column:auto;grid-row:span 2;aspect-ratio:auto;min-height:100%}.nb-b,.nb-c{aspect-ratio:16/10}}
+.nb-txt{display:grid;gap:clamp(24px,3vw,48px);margin-top:clamp(36px,4vw,64px)}
+@media (min-width:900px){.nb-txt{grid-template-columns:1fr 1fr}}
+.nb-txt p{color:rgba(255,255,255,.8)}
+.nb-txt p+p{margin-top:14px}
+.szk{display:grid;gap:0;margin-top:clamp(48px,5vw,88px);background:#fff;color:var(--ink)}
+@media (min-width:900px){.szk{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}}
+.szk-img{aspect-ratio:16/10;overflow:hidden}
+.szk-img img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+@media (min-width:900px){.szk-img{aspect-ratio:auto;min-height:100%}}
+.szk-b{padding:clamp(24px,3.4vw,56px);align-self:center}
+.szk-b h3{font-size:clamp(24px,1.2vw + 18px,38px)}
+.szk-b>p{margin-top:14px;color:var(--mut)}
+.szk dl{display:grid;gap:14px;margin:22px 0 26px;padding:20px 0;border-block:1px solid var(--line)}
+@media (min-width:600px){.szk dl{grid-template-columns:repeat(3,1fr)}}
+.szk dt{font:700 14px/1.3 Montserrat,sans-serif;color:var(--red)}
+.szk dd{margin:4px 0 0;font-size:15px}
+
+/* montaz */
+.mt-grid{display:grid;gap:clamp(32px,4vw,72px);align-items:start}
+@media (min-width:1000px){.mt-grid{grid-template-columns:1fr 1fr}}
+.kroki{list-style:none;margin:0;padding:0;counter-reset:k}
+.kroki li{display:grid;grid-template-columns:auto 1fr;gap:4px 18px;padding:20px 0;border-bottom:1px solid var(--line)}
+.kroki li:first-child{border-top:1px solid var(--line)}
+.kroki li::before{counter-increment:k;content:counter(k);font:700 15px/1.6 Montserrat,sans-serif;color:var(--red);grid-row:span 2}
+.kroki b{font:700 19px/1.3 Montserrat,sans-serif}
+.kroki span{color:var(--mut);font-size:.95em}
+.czas{margin-top:26px;font:700 clamp(20px,.8vw + 16px,28px)/1.25 Montserrat,sans-serif}
+.czas+p{margin-top:8px;color:var(--mut)}
+.mt-img{position:relative}
+.mt-img img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.zal{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:10px 28px}
+@media (min-width:600px){.zal{grid-template-columns:1fr 1fr}}
+.zal li{position:relative;padding-left:20px;font-weight:600}
+
+/* o firmie */
+.of-f{display:grid;gap:clamp(28px,4vw,72px);align-items:center}
+@media (min-width:1000px){.of-f{grid-template-columns:7fr 5fr}}
+.of-f .txt p{color:var(--ink2)}
+.of-f .txt p+p{margin-top:14px}
+.of-f .ph{aspect-ratio:4/3;overflow:hidden}
+@media (min-width:1000px){.of-f .ph{aspect-ratio:3/4;max-height:720px}}
+.of-f .ph img{width:100%;height:100%;object-fit:cover}
+.obszar{margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}
+.obszar h3{font-size:18px}
+.obszar ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.obszar li{border:1px solid var(--ink);padding:7px 14px;font:600 15px/1.2 Montserrat,sans-serif}
+.alteza{margin-top:22px;font-weight:700}
+
+/* kontakt */
+.kt{display:grid;gap:clamp(32px,4vw,80px)}
+@media (min-width:1000px){.kt{grid-template-columns:5fr 7fr}}
+.kt-dane a{text-decoration:none}
+.kt-tel{display:block;font:700 clamp(30px,2vw + 18px,48px)/1.1 Montserrat,sans-serif;margin-top:clamp(20px,2vw,32px)}
+.kt-tel:hover{color:var(--red)}
+.kt-mail{display:inline-block;margin-top:10px;font-weight:700;font-size:1.1em;border-bottom:2px solid var(--red)}
+.kt-adr{margin-top:26px;color:var(--ink2);font-size:.95em}
+.kt-adr b{display:block;color:var(--ink)}
+.kt-soc{margin-top:20px;display:flex;gap:18px;font-weight:700}
+.kt-soc a{border-bottom:1px solid var(--line)}
+.mapa{margin-top:28px;aspect-ratio:16/10;background:var(--sz);border:1px solid var(--line)}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+form{background:var(--sz);padding:clamp(22px,3vw,48px)}
+form h3{font-size:clamp(22px,1vw + 18px,32px)}
+form>p{margin-top:8px;color:var(--mut);font-size:.95em}
+.f-kat{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 4px;border:0;padding:0}
+.f-kat legend{font:700 14px/1.4 Montserrat,sans-serif;margin-bottom:8px;padding:0}
+.f-kat label{position:relative}
+.f-kat input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.f-kat span{display:block;padding:10px 14px;border:1px solid #B9C0C8;background:#fff;font-size:15px;font-weight:600;cursor:pointer}
+.f-kat input:checked+span{background:var(--ink);border-color:var(--ink);color:#fff}
+.f-kat input:focus-visible+span{outline:2px solid var(--red);outline-offset:2px}
+.f-row{display:grid;gap:14px;margin-top:14px}
+@media (min-width:600px){.f-row.two{grid-template-columns:1fr 1fr}}
+.f-row label{display:grid;gap:6px;font:700 14px/1.4 Montserrat,sans-serif}
+.f-row input,.f-row textarea{width:100%;font:inherit;font-family:Manrope,system-ui,sans-serif;font-weight:500;font-size:16px;padding:13px 14px;border:1px solid #B9C0C8;background:#fff;color:var(--ink);border-radius:0}
+.f-row input:focus,.f-row textarea:focus{outline:2px solid var(--red);outline-offset:0;border-color:var(--red)}
+.f-row textarea{min-height:120px;resize:vertical}
+form .btn{margin-top:22px}
+.f-ok{margin-top:14px;font-weight:700;color:var(--ink)}
+
+/* stopka */
+.ft{background:var(--ink);color:rgba(255,255,255,.82);padding:clamp(48px,5vw,80px) 0 calc(28px + env(safe-area-inset-bottom));font-size:15px}
+.ft-g{display:grid;grid-template-columns:1fr 1fr;gap:28px 20px}
+@media (min-width:900px){.ft-g{grid-template-columns:2fr 1fr 1fr 1fr}}
+.ft-g>div:first-child{grid-column:1/-1}
+@media (min-width:900px){.ft-g>div:first-child{grid-column:auto}}
+.ft .logo svg{width:150px}
+.ft-claim{margin-top:14px;max-width:34ch}
+.ft h4{margin:0 0 10px;font:700 14px/1.3 Montserrat,sans-serif;color:#fff}
+.ft ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.ft a{text-decoration:none}
+.ft a:hover{color:#fff;text-decoration:underline}
+.ft-bot{margin-top:36px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14);display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;color:rgba(255,255,255,.66);font-size:14px}
+.ft .klin{margin:0 0 28px}
+.ft .klin i{background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.28))}
+.ft .klin i:last-child{background:linear-gradient(270deg,rgba(255,255,255,0),rgba(255,255,255,.28))}
+
+/* pasek telefonu (tel.) */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1fr;background:var(--ink);padding-bottom:env(safe-area-inset-bottom);transform:translateY(110%);transition:transform .3s ease}
+.mbar.on{transform:none}
+.mbar a{display:flex;align-items:center;justify-content:center;min-height:54px;color:#fff;text-decoration:none;font:700 15px/1 Montserrat,sans-serif}
+.mbar a+a{background:var(--red)}
+@media (min-width:1100px){.mbar{display:none}}
+@media (max-width:1099px){body{padding-bottom:54px}}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:80;background:rgba(10,11,14,.96);display:none;flex-direction:column;align-items:center;justify-content:center;padding:56px 12px 64px;touch-action:pan-y}
+.lb.open{display:flex}
+.lb img{max-width:100%;max-height:calc(100svh - 140px);width:auto;height:auto;object-fit:contain}
+.lb-c{color:rgba(255,255,255,.85);font-size:15px;margin-top:12px;text-align:center}
+.lb button{position:absolute;border:0;background:rgba(255,255,255,.1);color:#fff;cursor:pointer;width:48px;height:48px;display:grid;place-items:center}
+.lb button:hover{background:rgba(255,255,255,.22)}
+.lb-x{top:8px;right:8px;font-size:30px;line-height:1}
+.lb-p,.lb-n{top:50%;margin-top:-24px}
+.lb-p{left:8px}.lb-n{right:8px}
+.lb-p::before,.lb-n::before{content:"";width:10px;height:16px;background:#fff;clip-path:polygon(0 0,100% 50%,0 100%)}
+.lb-p::before{transform:scaleX(-1)}
+.lb-i{position:absolute;top:20px;left:16px;color:rgba(255,255,255,.7);font:600 14px/1 Montserrat,sans-serif}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+{{BADGE_STYLE}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="lx" viewBox="4 3 164 32"><path d="M5 4h9v22h10v8H5zM25 4h9v21c0 1.8 1 2.5 3 2.5h5V4h13l11.5 14.5L55 34H37c-8 0-12-3-12-9zM68 4h9l-4.5 6zM68.5 34h8.5l-4.25-6zM92 4h25v7H96v4h21v7h-12v12H91L79 18.5zM118 4h20v7h-20zM118 15h20v7h-20zM118 22h9v5h10v7h-19zM140 4h21l5 5v6l-3 3.5 3 3.5v12h-9V22h-17v-7h17v-4h-17z"/></symbol>
+<symbol id="kl" viewBox="0 0 46 26"><path d="M3 2.5l13 10.5L3 23.5M43 2.5L30 13l13 10.5" fill="none" stroke="#E33B26" stroke-width="3.2" stroke-linejoin="miter"/></symbol>
+</svg>
+
+<header class="hd" id="hd">
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="Luxfer - strona główna"><svg viewBox="4 3 164 32" aria-hidden="true"><use href="#lx"/></svg></a>
+  <nav class="nav" aria-label="Menu główne">
+   <a href="#oferta">Oferta</a>
+   <a href="#realizacje">Realizacje</a>
+   <a href="#niebo">Gwieździste niebo</a>
+   <a href="#montaz">Montaż</a>
+   <a href="#o-firmie">O firmie</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="btn hd-tel" href="tel:+48501338623">501 338 623</a>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mnav"><span></span></button>
+ </div>
+</header>
+
+<div class="mnav" id="mnav" role="dialog" aria-modal="true" aria-label="Menu">
+ <div class="mnav-top">
+  <a class="logo" href="#top" aria-label="Luxfer - strona główna"><svg viewBox="4 3 164 32" aria-hidden="true"><use href="#lx"/></svg></a>
+  <button class="mnav-x" id="mnavx" aria-label="Zamknij menu">&times;</button>
+ </div>
+ <ul>
+  <li><a href="#oferta">Oferta</a></li>
+  <li><a href="#realizacje">Realizacje</a></li>
+  <li><a href="#niebo">Gwieździste niebo i szkolenia</a></li>
+  <li><a href="#montaz">Jak wygląda montaż</a></li>
+  <li><a href="#o-firmie">O firmie</a></li>
+  <li><a href="#kontakt">Kontakt</a></li>
+ </ul>
+ <div class="mnav-bot">
+  <a class="btn" href="tel:+48501338623">Zadzwoń: 501 338 623</a>
+  <p>luxfer@luxfer.net.pl · województwo łódzkie</p>
+ </div>
+</div>
+
+<main id="top">
+<section class="hero">
+ <picture>
+  <source media="(max-width:899px)" srcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" sizes="100vw" width="760" height="1326">
+  <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w" sizes="100vw" width="1600" height="1200" alt="Jadalnia z czarnym sufitem napinanym w połysku i liniami świetlnymi LED - realizacja Luxfer" fetchpriority="high" decoding="async">
+ </picture>
+ <div class="wrap hero-in">
+  <div class="klin" aria-hidden="true"><i></i><svg><use href="#kl"/></svg><i></i></div>
+  <h1><span class="l1">Sufity napinane w Łódzkiem&nbsp;-</span> napinamy dobry design</h1>
+  <p class="lead">Folie w połysku, macie i satynie, linie świetlne LED, nadruki UV i gwieździste niebo ze światłowodów. Montaż trwa od 2-3 dni, bez kurzu i wynoszenia mebli.</p>
+  <a class="btn" href="#kontakt">Zapytaj o swój sufit</a>
+  <p class="info">Tel. <a href="tel:+48501338623">501 338 623</a> · wykańczamy wnętrza od 2003 roku</p>
+ </div>
+</section>
+
+<section class="sec" id="oferta">
+ <div class="wrap">
+  <div class="sec-h">
+   <div class="mark" aria-hidden="true"><svg><use href="#kl"/></svg><i></i></div>
+   <h2>Co napinamy</h2>
+   <p>Sufit napinany to folia naciągnięta na profilach pod właściwym stropem. Można ją podświetlić, zadrukować albo uformować w dowolny kształt - na suficie i na ścianie.</p>
+  </div>
+  <div class="of-grid">
+   <article class="card">
+    <div class="car"><div class="car-t" tabindex="0" aria-label="Zdjęcia: sufity napinane">
+     <img src="img/of-folia1-480.webp" srcset="img/of-folia1-480.webp 480w, img/of-folia1-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Salon z jadalnią, sufit napinany w połysku z liniami świetlnymi" loading="lazy" decoding="async">
+     <img src="img/of-folia2-480.webp" srcset="img/of-folia2-480.webp 480w, img/of-folia2-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Duża sala z sufitem napinanym na kilku poziomach" loading="lazy" decoding="async">
+     <img src="img/of-folia3-480.webp" srcset="img/of-folia3-480.webp 480w, img/of-folia3-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Sala z czarnym sufitem napinanym i ramą świetlną" loading="lazy" decoding="async">
+    </div><button class="car-b p" aria-label="Poprzednie zdjęcie"></button><button class="car-b n" aria-label="Następne zdjęcie"></button><span class="car-n">1/3</span></div>
+    <h3>Sufity i ściany napinane</h3>
+    <p>Wytrzymała folia, która zastępuje zabudowę z karton-gipsu i daje idealnie płaską powierzchnię.</p>
+    <ul><li>matowa, wysoki połysk, satynowa</li><li>transparentna i teksturowana</li><li>szeroka gama kolorów</li></ul>
+   </article>
+   <article class="card">
+    <div class="car"><div class="car-t" tabindex="0" aria-label="Zdjęcia: linie świetlne LED">
+     <img src="img/of-led1-480.webp" srcset="img/of-led1-480.webp 480w, img/of-led1-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Salon z liniami świetlnymi LED w suficie napinanym" loading="lazy" decoding="async">
+     <img src="img/of-led2-480.webp" srcset="img/of-led2-480.webp 480w, img/of-led2-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Czarny sufit w połysku z kwadratowymi liniami świetlnymi" loading="lazy" decoding="async">
+     <img src="img/of-led3-480.webp" srcset="img/of-led3-480.webp 480w, img/of-led3-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Pokój dzienny z ukośnymi liniami świetlnymi na suficie" loading="lazy" decoding="async">
+    </div><button class="car-b p" aria-label="Poprzednie zdjęcie"></button><button class="car-b n" aria-label="Następne zdjęcie"></button><span class="car-n">1/3</span></div>
+    <h3>Linie świetlne LED</h3>
+    <p>Taśmy LED ukryte w aluminiowych profilach pod maskownicą - po obwodzie pokoju albo w dowolnym kształcie.</p>
+    <ul><li>linie po obwodzie i figury geometryczne</li><li>światło zamiast lamp</li><li>do domu i lokalu</li></ul>
+   </article>
+   <article class="card">
+    <div class="car"><div class="car-t" tabindex="0" aria-label="Zdjęcia: nadruki UV i Double Vision">
+     <img src="img/of-uv1-480.webp" srcset="img/of-uv1-480.webp 480w, img/of-uv1-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="532" alt="Sufit z nadrukiem nieba z chmurami" loading="lazy" decoding="async">
+     <img src="img/of-uv2-480.webp" srcset="img/of-uv2-480.webp 480w, img/of-uv2-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="534" alt="Podświetlany owalny sufit w kolorze niebieskim nad restauracją" loading="lazy" decoding="async">
+     <img src="img/of-uv3-480.webp" srcset="img/of-uv3-480.webp 480w, img/of-uv3-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Podświetlane panele z nadrukiem koron drzew między belkami" loading="lazy" decoding="async">
+    </div><button class="car-b p" aria-label="Poprzednie zdjęcie"></button><button class="car-b n" aria-label="Następne zdjęcie"></button><span class="car-n">1/3</span></div>
+    <h3>Nadruki UV i Double Vision</h3>
+    <p>Niebo, dżungla, bajka albo logo na suficie. Double Vision: sufit jest biały, a po włączeniu światła zmienia kolor z pilota.</p>
+    <ul><li>dowolna grafika lub zdjęcie</li><li>podświetlenie od tyłu</li><li>sterowanie kolorem i jasnością</li></ul>
+   </article>
+   <article class="card">
+    <div class="car"><div class="car-t" tabindex="0" aria-label="Zdjęcia: sufity ażurowe i 3D">
+     <img src="img/of-3d1-480.webp" srcset="img/of-3d1-480.webp 480w, img/of-3d1-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="533" alt="Podświetlany sufit ażurowy nad salą restauracyjną" loading="lazy" decoding="async">
+     <img src="img/of-3d2-480.webp" srcset="img/of-3d2-480.webp 480w, img/of-3d2-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="600" alt="Sala z owalnym sufitem napinanym i podświetleniem" loading="lazy" decoding="async">
+     <img src="img/of-3d3-480.webp" srcset="img/of-3d3-480.webp 480w, img/of-3d3-800.webp 800w" sizes="(min-width:1280px) 23vw, (min-width:700px) 46vw, 92vw" width="800" height="534" alt="Czarny sufit w połysku z podświetlanymi formami przestrzennymi" loading="lazy" decoding="async">
+    </div><button class="car-b p" aria-label="Poprzednie zdjęcie"></button><button class="car-b n" aria-label="Następne zdjęcie"></button><span class="car-n">1/3</span></div>
+    <h3>Sufity ażurowe, 3D i akustyczne</h3>
+    <p>Mozaika wzorów, świecące formy przestrzenne i sufity z perforacją, która poprawia akustykę.</p>
+    <ul><li>projekt pod konkretne wnętrze</li><li>systemy modułowe i kasetony</li><li>sale, kluby, biura, salony</li></ul>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="sec sz" id="realizacje">
+ <div class="wrap">
+  <div class="sec-h">
+   <div class="mark" aria-hidden="true"><svg><use href="#kl"/></svg><i></i></div>
+   <h2>Realizacje</h2>
+   <p>Hotele, restauracje, sale i domy prywatne. Przesuń zdjęcia palcem albo myszką, kliknij, żeby powiększyć.</p>
+  </div>
+  <div class="re-row">
+   <div class="re-top"><h3>Hotele, lokale i firmy</h3><div class="arr"><button aria-label="Przewiń w lewo" data-s="-1"></button><button aria-label="Przewiń w prawo" data-s="1"></button></div></div>
+   <div class="strip" data-g="ob">
+    <figure><button data-big="img/re-podkl-1400.webp"><img src="img/re-podkl-480.webp" srcset="img/re-podkl-480.webp 480w, img/re-podkl-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Recepcja hotelu Podklasztorze z podświetlanym sufitem" loading="lazy" decoding="async"></button><figcaption>Hotel Podklasztorze w Sulejowie - recepcja</figcaption></figure>
+    <figure><button data-big="img/re-rest-1400.webp"><img src="img/re-rest-480.webp" srcset="img/re-rest-480.webp 480w, img/re-rest-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="534" alt="Jasna restauracja z sufitem napinanym na dwóch poziomach" loading="lazy" decoding="async"></button><figcaption>Restauracja - sufit na dwóch poziomach</figcaption></figure>
+    <figure><button data-big="img/re-peryf-1400.webp"><img src="img/re-peryf-480.webp" srcset="img/re-peryf-480.webp 480w, img/re-peryf-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="534" alt="Lokal z czarnym sufitem w połysku i liniami świetlnymi" loading="lazy" decoding="async"></button><figcaption>Lokal - czarna folia w połysku i linie LED</figcaption></figure>
+    <figure><button data-big="img/re-krag-1400.webp"><img src="img/re-krag-480.webp" srcset="img/re-krag-480.webp 480w, img/re-krag-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Kręgielnia z kolorowymi liniami świetlnymi na suficie" loading="lazy" decoding="async"></button><figcaption>Kręgielnia - kolorowe linie świetlne</figcaption></figure>
+    <figure><button data-big="img/re-wesele-1400.webp"><img src="img/re-wesele-480.webp" srcset="img/re-wesele-480.webp 480w, img/re-wesele-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="535" alt="Sala weselna z sufitem napinanym w połysku" loading="lazy" decoding="async"></button><figcaption>Sala weselna</figcaption></figure>
+    <figure><button data-big="img/re-pgnig-1400.webp"><img src="img/re-pgnig-480.webp" srcset="img/re-pgnig-480.webp 480w, img/re-pgnig-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Falowana podświetlana ściana napinana z logo firmy" loading="lazy" decoding="async"></button><figcaption>Biuro - podświetlana ściana napinana</figcaption></figure>
+    <figure><button data-big="img/re-fresk-1400.webp"><img src="img/re-fresk-480.webp" srcset="img/re-fresk-480.webp 480w, img/re-fresk-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Gabinet z nadrukiem fresku na suficie napinanym" loading="lazy" decoding="async"></button><figcaption>Gabinet - nadruk UV na suficie</figcaption></figure>
+    <figure><button data-big="img/re-basen-1400.webp"><img src="img/re-basen-480.webp" srcset="img/re-basen-480.webp 480w, img/re-basen-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Basen z gwieździstym niebem na suficie" loading="lazy" decoding="async"></button><figcaption>Basen - gwieździste niebo</figcaption></figure>
+   </div>
+  </div>
+  <div class="re-row">
+   <div class="re-top"><h3>Domy i mieszkania</h3><div class="arr"><button aria-label="Przewiń w lewo" data-s="-1"></button><button aria-label="Przewiń w prawo" data-s="1"></button></div></div>
+   <div class="strip" data-g="dom">
+    <figure><button data-big="img/re-dom1-1400.webp"><img src="img/re-dom1-480.webp" srcset="img/re-dom1-480.webp 480w, img/re-dom1-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Salon z niebieską kanapą i liniami świetlnymi na suficie" loading="lazy" decoding="async"></button><figcaption>Salon - linie świetlne LED</figcaption></figure>
+    <figure><button data-big="img/re-dom2-1400.webp"><img src="img/re-dom2-480.webp" srcset="img/re-dom2-480.webp 480w, img/re-dom2-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Kuchnia z salonem i ukośną linią świetlną" loading="lazy" decoding="async"></button><figcaption>Kuchnia z salonem</figcaption></figure>
+    <figure><button data-big="img/re-dom3-1400.webp"><img src="img/re-dom3-480.webp" srcset="img/re-dom3-480.webp 480w, img/re-dom3-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Jadalnia z czarnymi polami w połysku i ramami świetlnymi" loading="lazy" decoding="async"></button><figcaption>Jadalnia - czarne pola w połysku</figcaption></figure>
+    <figure><button data-big="img/re-dom4-1400.webp"><img src="img/re-dom4-480.webp" srcset="img/re-dom4-480.webp 480w, img/re-dom4-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="600" alt="Salon z jadalnią i białym sufitem napinanym" loading="lazy" decoding="async"></button><figcaption>Salon z jadalnią</figcaption></figure>
+    <figure><button data-big="img/re-dom5-1400.webp"><img src="img/re-dom5-480.webp" srcset="img/re-dom5-480.webp 480w, img/re-dom5-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="1074" alt="Pokój z białym sufitem napinanym i niebieską ścianą" loading="lazy" decoding="async"></button><figcaption>Pokój - biały sufit napinany</figcaption></figure>
+    <figure><button data-big="img/re-dom6-1400.webp"><img src="img/re-dom6-480.webp" srcset="img/re-dom6-480.webp 480w, img/re-dom6-800.webp 800w" sizes="(min-width:1280px) 22vw, (min-width:700px) 40vw, 82vw" width="800" height="1074" alt="Pokój dzienny z gładkim sufitem napinanym" loading="lazy" decoding="async"></button><figcaption>Pokój dzienny</figcaption></figure>
+   </div>
+  </div>
+  <div class="obiekty">
+   <h3>Nasze sufity znajdziesz m.in. w:</h3>
+   <ul><li>Hotel Podklasztorze w Sulejowie</li><li>Hotel Porto</li><li>Caryński Resort &amp; SPA</li><li>Grand Stasinda Bukowina Tatrzańska</li></ul>
+  </div>
+ </div>
+</section>
+
+<section class="niebo" id="niebo">
+ <div class="wrap">
+  <div class="sec-h">
+   <div class="mark" aria-hidden="true"><svg><use href="#kl"/></svg><i></i></div>
+   <h2>Gwieździste niebo na suficie</h2>
+   <p>Nasza sztandarowa realizacja: światłowody wplecione w czarną folię w połysku. Świecące punkty wyglądają jak bezchmurne niebo nocą.</p>
+  </div>
+  <div class="nb-grid">
+   <button class="nb-a" data-big="img/st-basen-1400.webp" data-cap="Basen z gwieździstym niebem"><img src="img/st-basen-800.webp" srcset="img/st-basen-480.webp 480w, img/st-basen-800.webp 800w, img/st-basen-1400.webp 1400w" sizes="(min-width:900px) 56vw, 92vw" width="1400" height="897" alt="Basen z gwieździstym niebem ze światłowodów na suficie" loading="lazy" decoding="async"></button>
+   <button class="nb-b" data-big="img/st-sala-1400.webp" data-cap="Basen hotelowy - gwiazdy na suficie"><img src="img/st-sala-480.webp" srcset="img/st-sala-480.webp 480w, img/st-sala-800.webp 800w" sizes="(min-width:900px) 34vw, 92vw" width="800" height="600" alt="Hotelowy basen z gwiazdami na czarnym suficie" loading="lazy" decoding="async"></button>
+   <button class="nb-c" data-big="img/st-montaz-1400.webp" data-cap="Gwieździste niebo w trakcie montażu"><img src="img/st-montaz-480.webp" srcset="img/st-montaz-480.webp 480w, img/st-montaz-800.webp 800w" sizes="(min-width:900px) 34vw, 92vw" width="800" height="600" alt="Sufit z gwiazdami ze światłowodów nad salą" loading="lazy" decoding="async"></button>
+  </div>
+  <div class="nb-txt">
+   <div><p>Gwiazdy tworzą włókna światłowodowe umieszczone w powłoce sufitu. Dedykowany sterownik pozwala zmieniać ich barwę albo ustawić migotanie w zadanym tempie.</p></div>
+   <div><p>Sprawdza się w salonie, sypialni, pokoju dziecka, a także na basenie, w spa i w sali bankietowej. Wykonujemy je na folii czarnej błyszczącej.</p></div>
+  </div>
+  <div class="szk">
+   <div class="szk-img"><img src="img/ab-ekipa-480.webp" srcset="img/ab-ekipa-480.webp 480w, img/ab-ekipa-800.webp 720w" sizes="(min-width:900px) 38vw, 92vw" width="720" height="960" alt="Uczestnicy szkolenia montują profile sufitu napinanego" loading="lazy" decoding="async"></div>
+   <div class="szk-b">
+    <h3>Szkolenia z gwieździstego nieba</h3>
+    <p>Dzielimy się wiedzą z fachowcami od sufitów napinanych. Na szkoleniu uczymy w praktyce układania światłowodów w suficie, tak żeby powstało gwieździste niebo.</p>
+    <dl>
+     <div><dt>Gdzie</dt><dd>Centrum Szkoleniowe Alteza w Łodzi</dd></div>
+     <div><dt>Czas</dt><dd>od 9:00 do 16:00</dd></div>
+     <div><dt>Terminy</dt><dd>według liczby zgłoszeń</dd></div>
+    </dl>
+    <p>Każdy uczestnik dostaje certyfikat ukończenia szkolenia, a po nim nadal służymy radą.</p>
+    <a class="btn dk" href="#kontakt" style="margin-top:22px">Zgłoś się na szkolenie</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sec" id="montaz">
+ <div class="wrap">
+  <div class="sec-h">
+   <div class="mark" aria-hidden="true"><svg><use href="#kl"/></svg><i></i></div>
+   <h2>Jak wygląda montaż</h2>
+   <p>Remont kojarzy się z kurzem, hałasem i długim terminem. Sufit napinany zakładamy szybko i czysto - bez wynoszenia mebli.</p>
+  </div>
+  <div class="mt-grid">
+   <div>
+    <ol class="kroki">
+     <li><b>Pomiary i projekt</b><span>Zbieramy dokładne wymiary i dobieramy folię, kolor i światło do wnętrza.</span></li>
+     <li><b>Profile i elektryka</b><span>Montujemy aluminiowe profile i przygotowujemy instalację pod LED.</span></li>
+     <li><b>Napięcie folii</b><span>Folię nagrzewamy i napinamy na profilach - powstaje idealnie gładka powierzchnia.</span></li>
+    </ol>
+    <p class="czas">Całość montażu trwa od 2-3 dni.</p>
+    <ul class="zal">
+     <li>duża wytrzymałość na uszkodzenia</li>
+     <li>nie przepuszcza wody</li>
+     <li>odporny na chlor i wilgoć</li>
+     <li>niepalny</li>
+     <li>idealnie płaska powierzchnia</li>
+     <li>prawie nieograniczone aranżacje</li>
+    </ul>
+   </div>
+   <div class="mt-img"><img src="img/sz-ekipa-480.webp" srcset="img/sz-ekipa-480.webp 480w, img/sz-ekipa-800.webp 800w" sizes="(min-width:1000px) 46vw, 92vw" width="800" height="600" alt="Ekipa Luxfer podczas montażu sufitu napinanego" loading="lazy" decoding="async"></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec sz" id="o-firmie">
+ <div class="wrap of-f">
+  <div class="txt">
+   <div class="mark" aria-hidden="true"><svg><use href="#kl"/></svg><i></i></div>
+   <h2 style="font-size:clamp(30px,2.6vw + 14px,62px)">Od 2003 roku wykańczamy wnętrza</h2>
+   <p style="margin-top:20px">Doradzamy klientom indywidualnym, współpracujemy z architektami wnętrz i scenografami. Robimy sufity do domów i mieszkań, a także instalacje eventowe, reklamowe i stoiska wystawiennicze.</p>
+   <p>Ofertę kierujemy do deweloperów, architektów, hoteli, sal weselnych, restauracji, klubów i inwestorów prywatnych. Stosujemy materiały renomowanych producentów, takich jak Alteza.</p>
+   <p class="alteza">Luxfer jest dystrybutorem materiałów Alteza.</p>
+   <div class="obszar">
+    <h3>Obszar działania: województwo łódzkie</h3>
+    <ul><li>Łódź</li><li>Piotrków Trybunalski</li><li>Tomaszów Mazowiecki</li><li>Opoczno</li><li>Paradyż i okolice</li></ul>
+   </div>
+  </div>
+  <div class="ph"><img src="img/re-boat-480.webp" srcset="img/re-boat-480.webp 480w, img/re-boat-800.webp 720w" sizes="(min-width:1000px) 38vw, 92vw" width="720" height="960" alt="Podświetlana ściana z nadrukiem jeziora w górach" loading="lazy" decoding="async"></div>
+ </div>
+</section>
+
+<section class="sec" id="kontakt">
+ <div class="wrap kt">
+  <div class="kt-dane">
+   <div class="mark" aria-hidden="true"><svg><use href="#kl"/></svg><i></i></div>
+   <h2 style="font-size:clamp(30px,2.6vw + 14px,62px)">Porozmawiajmy o Twoim suficie</h2>
+   <a class="kt-tel" href="tel:+48501338623">+48 501 338 623</a>
+   <a class="kt-mail" href="mailto:luxfer@luxfer.net.pl">luxfer@luxfer.net.pl</a>
+   <p class="kt-adr"><b>Luxfer Firma Remontowo-Budowlana Mariusz Rutowicz</b>Wójcin A 35, 26-333 Paradyż<br>NIP 768-107-09-84 · REGON 592259630</p>
+   <p class="kt-soc"><a href="https://www.facebook.com/luxfersufitynapinane" rel="noopener">Facebook</a><a href="https://www.instagram.com/luxfer_sufity_napinane/" rel="noopener">Instagram</a></p>
+   <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=W%C3%B3jcin+A+35,+26-333+Parady%C5%BC&amp;hl=pl&amp;output=embed" aria-label="Mapa dojazdu"></div>
+  </div>
+  <form id="form" novalidate>
+   <h3>Zapytanie o wycenę</h3>
+   <p>Napisz, jakie to pomieszczenie i jaki efekt Ci się podoba. Odpowiemy z propozycją.</p>
+   <fieldset class="f-kat">
+    <legend>Kim jesteś?</legend>
+    <label><input type="radio" name="kat" value="inwestor" checked><span>prywatny inwestor</span></label>
+    <label><input type="radio" name="kat" value="projektant"><span>projektant wnętrz</span></label>
+    <label><input type="radio" name="kat" value="firma"><span>firma</span></label>
+    <label><input type="radio" name="kat" value="wspolpraca"><span>współpraca biznesowa</span></label>
+   </fieldset>
+   <div class="f-row two">
+    <label>Imię<input type="text" name="imie" autocomplete="name"></label>
+    <label>Telefon lub e-mail<input type="text" name="kontakt" autocomplete="tel"></label>
+   </div>
+   <div class="f-row">
+    <label>Wiadomość<textarea name="msg" placeholder="np. salon 25 m², czarny połysk z liniami LED"></textarea></label>
+   </div>
+   <button class="btn" type="submit">Wyślij zapytanie</button>
+   <p class="f-ok" id="fok" hidden>To podgląd - na docelowej stronie formularz wyśle wiadomość prosto do Luxfer.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="ft">
+ <div class="wrap">
+  <div class="klin" aria-hidden="true"><i></i><svg><use href="#kl"/></svg><i></i></div>
+  <div class="ft-g">
+   <div>
+    <a class="logo" href="#top" aria-label="Luxfer - strona główna"><svg viewBox="4 3 164 32" aria-hidden="true"><use href="#lx"/></svg></a>
+    <p class="ft-claim">Sufity i ściany napinane, linie świetlne LED, nadruki UV i gwieździste niebo. Napinamy dobry design.</p>
+   </div>
+   <div><h4>Oferta</h4><ul><li><a href="#oferta">Sufity napinane</a></li><li><a href="#oferta">Linie świetlne LED</a></li><li><a href="#oferta">Nadruki UV</a></li><li><a href="#niebo">Gwieździste niebo</a></li></ul></div>
+   <div><h4>Firma</h4><ul><li><a href="#realizacje">Realizacje</a></li><li><a href="#niebo">Szkolenia</a></li><li><a href="#o-firmie">O firmie</a></li><li><a href="#kontakt">Kontakt</a></li></ul></div>
+   <div><h4>Kontakt</h4><ul><li><a href="tel:+48501338623">501 338 623</a></li><li><a href="mailto:luxfer@luxfer.net.pl">luxfer@luxfer.net.pl</a></li><li>Wójcin A 35, Paradyż</li></ul></div>
+  </div>
+  <div class="ft-bot">
+   <span>© <span id="rok">2026</span> Luxfer · Polityka prywatności</span>
+   {{BADGE_LINK}}
+  </div>
+ </div>
+</footer>
+
+<nav class="mbar" id="mbar" aria-label="Szybki kontakt"><a href="tel:+48501338623">Zadzwoń</a><a href="#kontakt">Zapytaj o wycenę</a></nav>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+ <span class="lb-i" id="lbi"></span>
+ <img id="lbimg" alt="">
+ <p class="lb-c" id="lbc"></p>
+ <button class="lb-x" id="lbx" aria-label="Zamknij">&times;</button>
+ <button class="lb-p" id="lbp" aria-label="Poprzednie"></button>
+ <button class="lb-n" id="lbn" aria-label="Następne"></button>
+</div>
+
+<script>
+(function(){
+var d=document,hd=d.getElementById('hd'),mb=d.getElementById('mbar'),hero=d.querySelector('.hero');
+d.getElementById('rok').textContent=new Date().getFullYear();
+function sc(){var y=scrollY;hd.classList.toggle('solid',y>40);mb.classList.toggle('on',y>hero.offsetHeight*.7)}
+addEventListener('scroll',sc,{passive:true});sc();
+/* menu */
+var mn=d.getElementById('mnav'),bg=d.getElementById('burger');
+function mo(o){mn.classList.toggle('open',o);bg.setAttribute('aria-expanded',o);d.body.style.overflow=o?'hidden':''}
+bg.onclick=function(){mo(true)};d.getElementById('mnavx').onclick=function(){mo(false)};
+mn.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mo(false)})});
+/* aktywny link */
+var secs=['oferta','realizacje','niebo','montaz','o-firmie','kontakt'].map(function(i){return d.getElementById(i)}),links=d.querySelectorAll('.nav a');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(l){l.toggleAttribute('aria-current',l.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});secs.forEach(function(s){io.observe(s)})}
+/* przeciaganie mysza */
+function drag(el){var x0,s0,on=false,moved=false;
+ el.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;on=true;moved=false;x0=e.clientX;s0=el.scrollLeft;el.classList.add('drag')});
+ addEventListener('pointermove',function(e){if(!on)return;var dx=e.clientX-x0;if(Math.abs(dx)>4)moved=true;el.scrollLeft=s0-dx});
+ addEventListener('pointerup',function(){if(!on)return;on=false;el.classList.remove('drag');var w=el.firstElementChild.getBoundingClientRect().width+(parseFloat(getComputedStyle(el).columnGap)||0);el.scrollTo({left:Math.round(el.scrollLeft/w)*w,behavior:'smooth'})});
+ el.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation();moved=false}},true);
+}
+/* karuzele w kartach */
+d.querySelectorAll('.car').forEach(function(c){var t=c.querySelector('.car-t'),n=c.querySelector('.car-n'),k=t.children.length;drag(t);
+ function idx(){return Math.round(t.scrollLeft/t.clientWidth)}
+ t.addEventListener('scroll',function(){n.textContent=(idx()+1)+'/'+k},{passive:true});
+ c.querySelector('.p').onclick=function(){t.scrollTo({left:Math.max(0,idx()-1)*t.clientWidth,behavior:'smooth'})};
+ c.querySelector('.n').onclick=function(){var i=idx()+1;if(i>=k)i=0;t.scrollTo({left:i*t.clientWidth,behavior:'smooth'})};
+});
+/* paski realizacji */
+d.querySelectorAll('.re-row').forEach(function(r){var s=r.querySelector('.strip');drag(s);
+ r.querySelectorAll('.arr button').forEach(function(b){b.onclick=function(){var w=s.firstElementChild.getBoundingClientRect().width+14;s.scrollBy({left:w*(+b.dataset.s),behavior:'smooth'})}})});
+/* lightbox */
+var lb=d.getElementById('lb'),li=d.getElementById('lbimg'),lc=d.getElementById('lbc'),lii=d.getElementById('lbi'),list=[],cur=0,last;
+function show(i){cur=(i+list.length)%list.length;var b=list[cur],im=b.querySelector('img');li.src=b.dataset.big;li.alt=im.alt;var f=b.closest('figure');lc.textContent=b.dataset.cap||(f&&f.querySelector('figcaption')?f.querySelector('figcaption').textContent:im.alt);lii.textContent=(cur+1)+' / '+list.length}
+function open(b){var g=b.closest('[data-g]')||b.closest('.nb-grid');list=[].slice.call(g.querySelectorAll('[data-big]'));last=b;lb.classList.add('open');d.body.style.overflow='hidden';show(list.indexOf(b));d.getElementById('lbx').focus()}
+function close(){lb.classList.remove('open');d.body.style.overflow='';li.removeAttribute('src');if(last)last.focus()}
+d.querySelectorAll('[data-big]').forEach(function(b){b.addEventListener('click',function(){open(b)})});
+d.getElementById('lbx').onclick=close;d.getElementById('lbp').onclick=function(){show(cur-1)};d.getElementById('lbn').onclick=function(){show(cur+1)};
+lb.addEventListener('click',function(e){if(e.target===lb)close()});
+addEventListener('keydown',function(e){if(e.key==='Escape'){if(lb.classList.contains('open'))close();else if(mn.classList.contains('open'))mo(false)}if(!lb.classList.contains('open'))return;if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+var tx=null;lb.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});lb.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)show(cur+(dx<0?1:-1));tx=null});
+/* mapa przy przewinieciu */
+var mp=d.getElementById('mapa');
+if('IntersectionObserver' in window){var mo2=new IntersectionObserver(function(es){if(es[0].isIntersecting){var f=d.createElement('iframe');f.src=mp.dataset.src;f.title='Mapa: Wójcin A 35, Paradyż';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mp.appendChild(f);mo2.disconnect()}},{rootMargin:'300px'});mo2.observe(mp)}
+/* formularz pokazowy */
+d.getElementById('form').addEventListener('submit',function(e){e.preventDefault();d.getElementById('fok').hidden=false});
+})();
+</script>
+</body>
+</html>
